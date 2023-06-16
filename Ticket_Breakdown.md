@@ -16,7 +16,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ## Your Breakdown Here
 
-**Ticket1**
+**Ticket1** <br />
 Title:
 As a BE developer, I want to modify agents table to store unique custom id for facilities to make reports more readable.
 
@@ -30,8 +30,10 @@ DoD (Definition of Done):
 1. On hitting endpoint with valid customId, a new id is added in the agent table for that agent.
 2. On hitting endpoint with inValid customId, it should give error.
 3. On hitting endpoint with duplicate customId, it should give error.
+   <br />
+   <br />
 
-**Ticket2**
+**Ticket2** <br />
 Title:
 As a BE developer, I want to consume customId created in getShiftsByFacility to make reports more readable.
 
@@ -43,8 +45,10 @@ Time/Effort estimates: ~2hours
 DoD (Definition of Done):
 
 1. On hitting endpoint, the returned response should include customId for each agent (if exist else retunr null).
+   <br />
+   <br />
 
-**Ticket3**
+**Ticket3** <br />
 Title:
 As a developer, I want to modify report generation function to include customId instead of DB id for agents to make reports more readable.
 
@@ -58,9 +62,12 @@ DoD (Definition of Done):
 
 1. On hitting endpoint, the generated report should include customId for each agent
 
-**I don't know if there's any code on frontend that needs to be changed, if it exists we need to create a ticket for FE developer also**
+<br />
+<br />
 
-**Improvement for future: [Future tickets]**
+**I don't know if there's any code on frontend that needs to be changed, if it exists we need to create a ticket for FE developer also** <br />
+
+**Improvement for future: [Future tickets]** <br />
 
 1. Whenever a agent leaves a facitlity make this customId as null so that new facility can enter new ID.
 2. Modifiy facility onboarding API so that they can create custom agent id at the beginning.
